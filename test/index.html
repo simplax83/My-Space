@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Space</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <i class="logo"></i>
+                    <div class="line"></div>
+                    <h1 class="title">My Space</h1>
+                </div>
+                <div class="navbar__menu">
+                    <a href="" class="navbar__menu__link">Про нас</a>
+                    <a href="" class="navbar__menu__link">Новини</a>
+                    <a href="" class="navbar__menu__link">Блог</a>
+                    <a href="" class="navbar__menu__link link-icon"><img src="img/header/Icon.svg" alt=""></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="form">
+        <div class="container">
+            <div class="form__wrapper">
+                <img src="img/Uran.svg" id="planet-img" alt="planet-img" class="form__img">
+                <div class="form__menu">
+                    <div class="menu__wrapper">
+                        
+                        <h2 class="menu__title">Електронна черга для польоту у космос</h2>
+                        <form action="" class="form">
+                            <div class="form__block">
+                                <p class="form__block__title">Ім’я</p>
+                                <input type="text" class="block__input" id="name" name="name" placeholder="Введіть імʼя" required>
+                            </div>
+                            <div class="form__block">
+                                <p class="form__block__title">Телефон</p>
+                                <input type="text" class="block__input" type="tel" id="phone" name="phone"  placeholder="+38 (_) __ __ __" required>
+                            </div>
+                            <div class="form__block">
+                                <p class="form__block__title" >Планета</p>
+                                <select class="form__select"name="" id="select" required>
+                                    <option value="venus">Венера</option>
+                                    <option value="earth">Земля</option>
+                                    <option value="mars">Марс</option>
+                                    <option value="mercury">Меркурій</option>
+                                    <option value="neptune">Нептун</option>
+                                    <option value="uranus" selected>Уран</option>
+                                </select>
+                                
+                                <button class="form__button" type="submit" onclick="window.location.href = 'success.html';" >Зареєструватися</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="copyright">
+        <div class="container">
+            <div class="copyright__wrapper">
+                <h3 class="copyright__title">© 2022 My space. Всі права захищені.</h3>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/main.js"></script>
+</html>
